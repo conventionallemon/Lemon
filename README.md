@@ -1,12 +1,13 @@
 <!DOCTYPE html>
-<html lang="eng">
-<body>
-
-  <b> this will bold the text </b>
-  <i> this will make the text in italics </i>
-  <u> and i have no idea if this will underline the text </u>
-  
-</body>
+<html>
+<head>
+ <title> My First Webpage </title> 
+ </head>
+ <body> 
+   <h1> Hello </h1>
+   <p> This is a test page. </p>
+  <img src https://www.istockphoto.com/photos/whole-lemon> </img>
+ </body>
 
 </html>
 
