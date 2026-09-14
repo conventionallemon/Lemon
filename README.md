@@ -1,41 +1,110 @@
 <!DOCTYPE html>
+
 <html>
-<head> My First Webpage
-</head>
- <body> 
-   <h1> Hello </h1>
- <img src="https://www.sunnyneo.com/pagedivider/DIV_apples.png" img width=450px;height:19px;display:block>
-</img> 
-  <h2> Table Template 
-  </h2>
-  <table>
-   <tr> 
-    <th> 
-     <img width="20px" height="87px" alt="image" src="https://github.com/user-attachments/assets/44d47967-95d4-442e-9e2b-299afd9c1797" /> </th>
-    <th> <img width="40px" height="60px" alt="image" src="https://github.com/user-attachments/assets/4c2d0434-be08-48a0-afd4-81ad6dacddcb"/> </th>
-    <th> <img width="45px" height="80px" alt="image" src="https://github.com/user-attachments/assets/1c5e2ded-1d73-402a-a9de-21f1ce5df6c0" />
+
+<style>
+#flowersbg {
+	top: "0px";
+	left: "0px";
+	background: transparent <img width="3000" height="4500" alt="image" src="https://github.com/user-attachments/assets/3b10dd36-19ce-4864-84de-4e930613659e" />
+
+  top left no-repeat;
+	width: "944px";
+	height: "1300px";
+	z-index: -10;
+}
+#flowery {
+	width: "745px";
+	height: "535px";
+	text-align: center;
+	font: "8pt" verdana;
+	color: #645b53;
+	background: transparent;
+	left: "87px";
+	top: "415px";
+	padding: "7px";
+	overflow: auto;
+	z-index: 1;
+}
+#yourname {
+	top: "320px";
+	left: "170px";
+	width: 650;
+	height: "70px";
+	text-align: right;
+	font: italic bold "22pt" georgia;
+	color: #fefefc;
+	z-index: 10;
+	overflow: hidden;
+}
+body {
+	background: #cddfb6 <img width="3000" height="4500" alt="image" src="https://github.com/user-attachments/assets/82600088-da22-4c1e-95f9-cfbba9f617c9" />
+;
+}
+b {
+	font: bold "8pt" verdana;
+	color: #3d9672;
+}
+i {
+	font: italic "8.5pt" georgia;
+	color: #645b53;
+}
+a:link, a:active, a:visited {
+	font-weight: bold;
+	color: #548039;
+	border-bottom: "1px" dashed #548039;
+	text-decoration: none;
+}
+a:hover {
+	font-weight: bold;
+	cursor: crosshair;
+	color: #358292;
+	border-bottom: "1px" dashed #358292;
+	text-decoration: none;
+}
+h1 {
+	text-align: left;
+	padding-left: "100px";
+	font: bold italic "13pt" georgia;
+	color: #9eca5e;
+	border-bottom: "1px" dashed #9eca5e;
+	width: "85%";
+}
+h2 {
+	text-align: right;
+	padding-right: "100px";
+	font: bold italic "13pt" georgia;
+	color: #9eca5e;
+	border-bottom: "1px" dashed #9eca5e;
+	width: "85%";
+}
+font.sf {
+	display: none;
+}
+table {
+	display: none;
+}
+</style>
+
+<div id="flowersbg" style="position: absolute;"></div>
+<div id="yourname" style="position: absolute;">Your Name Goes Here</div>
+<div id="flowery" style="position: absolute;">
+<h1>Your Heading Here</h1>
+<b>bold</b> <i>italic</i> <a href="https://github.com/conventionallemon/Lemon.git">link</a> Your text here. Your text here. 
+
+<br><h2>Your Heading Here</h2>
+<b>bold</b> <i>italic</i> <a href="https://github.com/conventionallemon/Lemon.git">link</a> Your text here. Your text here. Your text here. 
+
+<h1>Your Heading Here</h1>
+<b>bold</b> <i>italic</i>
+ <a href="https://github.com/conventionallemon/Lemon.git">link</a> Your text here. Your text here. <br>
+
+<h2>Your Heading Here</h2>
+<b>bold</b> <i>italic</i>
+ <a href="https://github.com/conventionallemon/Lemon.gitlink</a> Your text here. Your text here. </div>
 
 
 
-
-</th>
-    
-   </tr>
-   <tr>
-    <td> Cell One </td>
-    <td> Cell Two </td>
-    <td> Cell Three </td>
-   </tr>
-  </table>
-  
- 
-
- 
-   <p> This is a test page. </p>
-  <img width="504" height="360" alt="image" src="https://github.com/user-attachments/assets/0d01a551-4e07-41ce-83bc-c29c36454183" />
-
- </img>
- </body>
 
 </html>
 
